@@ -1,10 +1,10 @@
 const light = process.argv[2];
-light.toLowerCase
-if (light === 'red'){
+const check = light.toLowerCase();
+if (check === 'red'){
     console.log('Stop');
-}else if (light === 'yellow'){
+}else if (check === 'yellow'){
     console.log('Caution');
-}else if (light === 'green'){
+}else if (check === 'green'){
     console.log('Go');
 }else {
     console.log('Unknown');
