@@ -1,0 +1,1 @@
+const Password = process.argv[2];
